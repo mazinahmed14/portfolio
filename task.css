@@ -1,0 +1,1236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;  
+    display: block; 
+    
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+}
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+.foot
+{
+    background-color:  #f8f8f8;
+    margin: auto;
+    height: 425px;
+}
+.foot .text1
+{
+    padding-left: 60px;
+  float: left;
+  margin-top: 70px;
+  width: 33.333%;
+  
+}
+.foot .text1 h3
+{
+    color: black;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.foot .text1 .ig
+{
+    font-size: 17px;
+    color: #0779e4;
+}
+.foot .text1 p
+{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #888;
+    padding-bottom: 10px;
+}
+.foot .text1 ul
+{
+    color: #888;
+    font-size: 14px;
+    line-height: 1.7;
+    list-style: none;
+}
+.foot .text1 li
+{
+    padding: 10px 0;
+}.foot .text1 i{
+    padding-right: 4px;
+    color: #0779e4;
+}
+
+
+
+@media screen and (max-width:600px) 
+{
+    
+}
+
+
+/*-- section 1 --*/
+
+
+.home
+{
+    height: 700px;
+    background-image: url(../task3image/ou2ve8dk.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.home .texthome
+{
+    margin-top: 200px;
+    margin-left: 220px;
+}
+.home .texthome h1
+{
+    font-weight: 400;
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.home .texthome p
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+.home .texthome span
+{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+    color: #0779e4;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 8px 13px;
+}
+.home .texthome .btn
+{
+    background: #0779e4;
+    color: #fff;
+    padding: 17px 26px;
+    border: 1px solid #0779e4;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.home .texthome .btnn
+{
+    background: #fff;
+    color: #0779e4;
+    padding: 17px 26px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.home .texthome .btn i
+{
+    font-size: 10px;
+    color: #fff;
+    padding-left: 10px;
+    
+}
+.home .texthome .btnn i
+{
+    font-size: 10px;
+    color: #0779e4;
+    padding-left: 10px;
+    
+}
+.btn:hover
+{
+    cursor: pointer;
+}
+.btnn:hover
+{
+    cursor: pointer;
+}
+.home .text 
+{
+    display: block;
+    margin-left: 220px;
+    margin-top: 50px;
+
+}
+.home .text a
+{
+    color: #fff;
+    list-style: none;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+   padding-left: 20px;
+}
+.home .text i
+{
+    font-size: 9px;
+}
+.home .text .z
+{
+    padding-left: 0;
+}
+h1::after {
+    content: "";
+    animation-name: testName;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+@keyframes testName {
+    0%{
+       content: "A";
+    }
+    1%{
+       content: "A w";
+    }
+    2%{
+       content: "A We";
+    }
+    3%{
+       content: "A Web";
+    }
+    4%{
+       content: "A Web D";
+    }
+    5%{
+       content: "A Web De";
+    }
+    6%{
+       content: "A Web Des";
+    }
+    7%{
+       content: "A Web Desi";
+    }
+    8%{
+       content: "A Web Desig";
+    }
+    9%{
+       content: "A Web Design";
+    }
+    10%{
+       content: "A Web Designe";
+    }
+    12%{
+       content: "A Web Designer";
+    }
+    13%{
+       content: "A Web Designe";
+    }
+    14%{
+       content: "A Web Design";
+    }
+    15%{
+       content: "A Web Desig";
+    }
+    16%{
+       content: "A Web Desi";
+    }
+    17%{
+       content: "A Web Des";
+    }
+    18%{
+       content: "A Web De";
+    }
+    19%{
+       content: "A Web D";
+    }
+    20%{
+       content: "A Web";
+    }
+    21%{
+       content: "A We";
+    } 
+    22%{
+       content: "A W";
+    } 
+    23%{
+        content: "A";
+    }
+    24%{
+        content: "A";
+    }
+    25%{
+        content: "A D";
+    }
+    26%{
+        content: "A De";
+    }
+    27%{
+        content: "A Dev";
+    }
+    28%{
+        content: "A Deve";
+    }
+    29%{
+        content: "A Devel";
+    }
+    30%{
+        content: "A Develo";
+    }
+    31%{
+        content: "A Develop";
+    }
+    32%{
+        content: "A Develope";
+    }
+    33%{
+        content: "A Developer";
+    }
+    34%{
+        content: "A Develope";
+    }
+    35%{
+        content: "A Develop";
+    }
+    36%{
+        content: "A Develo";
+    }
+    37%{
+        content: "A Devel";
+    }
+    38%{
+        content: "A Deve";
+    }
+    39%{
+        content: "A Dev";
+    }
+    40%{
+        content: "A De";
+    }
+    41%{
+        content: "A D";
+    }
+    42%{
+        content: "A";
+    }
+    43%{
+        content: "I";
+    }
+    44%{
+        content: "I L";
+    }
+    45%{
+        content: "I Lo";
+    }
+    46%{
+        content: "I Lov";
+    }
+    47%{
+        content: "I Love";
+    }
+    48%{
+        content: " I Love D";
+    }
+    49%{
+        content: "I Love De";
+    }
+    50%{
+        content: "I Love Des";
+    }
+    51%{
+        content: "I Love Desi";
+    }
+    52%{
+        content: "I Love Desig";
+    }
+    
+    53%{
+        content: "I Love Design";
+    }
+    54%{
+        content: "I Love Desig";
+    }
+    55%{
+        content: "I Love Desi";
+    }
+    56%{
+      content: "I Love Des";
+    }
+    57%{
+        content: "I Love De";
+    }
+    58%{
+        content: "I Love D";
+    }
+    59%{
+        content: "I Love";
+    }
+    60%{
+        content: "I Lov";
+    }
+    61%{
+        content: "I Lo";
+    }
+    62%{
+        content: "I L";
+    }
+    63%{
+        content: " I";
+    }
+    64%{
+        content: " I";
+    }
+    65%{
+        content: " I L";
+    }
+    66%{
+        content: " I Lo";
+    }
+    67%{
+        content: " I Lov";
+    }
+    68%{
+        content: " I Love";
+    }
+    69%{
+        content: " I Love T";
+    }
+    70%{
+        content: " I Love To";
+    }
+    71%{
+        content: " I Love To D";
+    }
+    72%{
+        content: " I Love To De";
+    }
+    73%{
+        content: "I Love To Dev ";
+    }
+    74%{
+        content: "I Love To Deve ";
+    }
+    75%{
+        content: "I Love To Devel ";
+    }
+    76%{
+        content: "I Love To Develo ";
+    }
+    77%{
+        content: "I Love To Develop ";
+    }
+    78%{
+        content: "I Love To Develo ";
+    }
+    79%{
+        content: "I Love To Devel ";
+    }
+    80%{
+        content: "I Love To Deve ";
+    }
+    81%{
+        content: "I Love To Dev ";
+    }
+    82%{
+        content: "I Love To De ";
+    }
+    83%{
+        content: "I Love To D ";
+    }
+    84%{
+        content: "I Love To  ";
+    }
+    85%{
+        content: "I Love T ";
+    }
+    86%{
+        content: "I Love  ";
+    }
+    87%{
+        content: "I Lov ";
+    }
+    88%{
+        content: "I Lo";
+    }
+    89%{
+        content: "I L";
+    }
+    90%{
+        content: "I ";
+    }
+    
+    
+} 
+
+
+
+/*-- section 2 --*/
+
+
+
+.story
+{
+    padding: 80px 0;
+    margin: auto;
+}
+.con
+{
+    width: 70%;
+    margin: auto;
+}
+.story .storyimg
+{
+    width: 50%;
+    float: left;
+}
+.story .storytext
+{
+    width: 50%;
+    float: left;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.story .storytext span
+{
+    font-weight: 700;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 8px 13px;
+    color: #777777;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+span:hover{
+    cursor: pointer;
+}
+.story .storytext .uni
+{
+    color: #fff;
+    background-color: #0779e4;
+}
+.story .storytext h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    padding: 30px 0;
+    font-weight: 900;
+}
+.story .storytext p
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.story .storytext h3
+{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 25px 0;
+}
+
+
+
+/*-- section 3 --*/
+
+
+
+.serv
+{
+    padding: 100px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.serv p
+{
+    color: #0779e4;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.serv h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.web .col
+{
+    float: left;
+    width: 33.333%;
+    padding-left: 10px;
+}
+.web .ux
+{
+    background-color: white;
+    padding: 40px ;
+}
+.web .ux h2
+{
+    color: #0779e4;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #0779e4;
+
+}
+.web .ux
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    width: 80%;
+}
+.web .ux i
+{
+    font-size: 40px;
+    background-color:#0779e4;
+    color: #fff;
+   padding: 15px ;
+}
+.web .ux .zz
+{
+    color:#0779e4;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top: 5px;  
+}
+.web .ux .zz i
+{
+    font-size: 12px;
+    background-color: #fff;
+    padding: 0;
+}
+.tact 
+{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #999999;
+    font-weight: bolder;
+    margin: auto;
+    width: 45%;
+    padding-top: 40px;
+}
+.tact a
+{
+    color: #0779e4;
+  text-decoration: none;
+    
+}
+.tact p
+{
+    padding-top: 20px ;
+    padding-bottom: 130px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+
+
+/*-- section 4 --*/
+
+
+
+.happy 
+{
+    height: 275px;
+    background-image:url(../task3image/bg_3.jpg.webp) ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.happy::after
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #0779e4c1;
+    inset: 0;
+    z-index: -1;
+}
+.happy .sol
+{
+    float: left;
+    width: 33.333333%;
+    margin-top: 90px;  
+    padding-left: 15px; 
+}
+.happy .happytext h2
+{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    display: block;
+}
+.happy .happytext p
+{
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 70px;
+}
+.happy .happytext span
+{
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+    padding: 7px;
+}
+
+
+
+/*-- section 5 --*/
+
+
+
+.wor
+{
+    padding-top: 100px ;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.wor p
+{
+    color: #0779e4;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.wor h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.works
+{
+    padding: 35px 0;
+}
+.works .wol
+{
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+.works .work
+{
+    position: relative;
+    overflow: hidden;
+}
+.works .work .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: #0779e4c1;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    z-index: 12;
+    transition: all 0.5s;
+}
+.work:hover .overlay
+{
+    opacity: 1;
+}
+.works .work img
+{
+    transition: all 0.5s;
+}
+.work .overlay .hh
+{  
+    font-weight: 200;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(20px);
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.work:hover .overlay .hh
+{
+    transform: translateY(0);
+}
+.work .overlay .hhh
+{  
+    font-weight: 200;
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(20px);
+    transition: all 0.5s;
+    text-decoration: none;
+    padding-bottom: 6px;
+}
+.work:hover .overlay .hhh
+{
+    transform: translateY(0);
+}
+
+
+
+/*-- section 6 --*/
+
+
+.test
+{
+    padding-top: 200px ;
+    padding-bottom: 80px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.test p
+{
+    color: #0779e4;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.test h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.our .ool
+{
+    float: left;
+    width: 33.333%;
+    padding-left: 20px;
+}
+.our .stud
+{
+    background-color: white;
+    padding: 40px ;
+}
+.our .stud-s
+{
+    background-color: #0779e4;
+    padding: 40px ;
+}
+.our .stud .pp
+{
+    font-weight: 600;
+    font-size: 25px;
+    color: #111111;
+    text-transform: uppercase; 
+    padding-bottom: 20px;
+}
+.our .stud .ppp
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #0779e4;
+    font-weight: 500;
+padding-bottom: 15px;
+}
+.our .stud .pppp
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.our .stud-s .pp
+{
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase; 
+    padding-bottom: 20px;
+}
+.our .stud-s .ppp
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 15px;
+
+}
+.our .stud-s .pppp
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+/*-- section 7 --*/
+
+
+
+.blog
+{
+    padding-top: 220px ;
+    padding-bottom: 35px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.blog p
+{
+    color: #0779e4;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.blog h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.pics .col2
+{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    
+}
+.pics .pic
+{
+    background-color: #fff;
+}
+.pic .textpic
+{
+    padding: 15px;
+    line-height: 1.7;
+}
+.pic .textpic h2
+{
+    color: black;
+    Font-size: 20px;
+    font-weight: 500;
+}
+.pic .textpic p
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.pic .textpic span i
+{
+    color: #0779e4;
+    padding-right: 7px;
+    font-size: 12px;
+}
+.pic .textpic span
+{
+    color: #999999;
+    font-weight: 800;
+    font-size: 12px;
+}
+.pic .textpic span a
+{
+    text-decoration: none;
+    color: #0779e4;
+    padding-left: 7px;
+}
+.pic .textpic h2:hover
+{
+    color: #0779e4;
+    cursor: pointer;
+}
+
+
+
+/*-- section 8 --*/
+
+
+
+.price
+{
+    text-align: center;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 35px;
+}
+.price p
+{
+    color: #0779e4;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.price h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.my .pl
+{
+    float: left;
+    width: 33.333%;
+    padding-left: 20px;
+}
+.my .mon
+{
+    background-color: white;
+    padding: 40px ;
+    text-align: center;
+}
+.mon .gta
+{
+    color: #0779e4;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    border: 1px solid #0779e4;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gta:hover
+{
+    background-color: #0779e4 ;
+    Color:white;
+}
+.mon p
+{
+    color: #0779e4;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.my .mon h2
+{
+    color: #0779e4;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+.mon .ii
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+
+
+/*-- section 9 --*/
+
+
+.maps
+{
+    padding-top: 200px;
+}
+.maps .map 
+{
+   margin: auto;
+   background-color: #fff;
+   width: 100%; 
+}
+.map .mapig
+{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.map .mapform
+{
+    width: 50%;
+    float: left;
+    padding: 40px 20px ;
+}
+.map .mapform h3
+{
+    color: #000000;
+    font-weight: 800;
+    font-size: 30px;
+}
+.map .mapform p
+{
+    padding-top: 15px ;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.map .maptext
+{
+    float: left;
+    width: 250px;
+    padding: 0 20px;
+    display: inline;
+}
+.map .maptext span
+{
+    color: #000000;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.map .maptext p
+{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+} 
+.map .TT 
+{
+    width: 250px;
+    padding-bottom: 15px;
+    
+}
+.map .TT a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.form 
+{
+    padding: 10px;
+    display: inline;
+    
+}
+.form .name
+{
+    padding: 15px;
+}
+.form input
+{
+    width: 300px;
+    padding: 10px 10px;
+    
+}
+.su input
+{
+    width: 605px;
+}
+.map .send button
+{
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: #0779e4;
+    color: #fff;
+    cursor: pointer;
+}
+.map .twit
+{
+    padding-top: 30px;
+}
+.map .twit a
+{
+    text-decoration: none;
+    color: #0779e4;
+    padding-left: 7px;
+    font-size: 13px;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+.twit a:hover   
+{
+    color: #000000;
+}
+.map .twit h3
+{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 7px;
+}
+
+
+/*--- section 10---*/
+
+
+.sad
+{
+    height: 200px;
+    width: 100%;
+    background-color: #0779e4;
+    float: left;
+    margin: auto;
+}
+.sad .sadtex
+{
+    float: left;
+    margin-top: 60px
+}
+.sad .sadtex h2
+{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.sad .sadtex p
+{
+    font-size: 15px;
+    color: #e7e1e1;
+}
+.sad .sadbut button
+{
+    color:#fff;
+    margin-top: 65px;
+    padding: 15px 90px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #0779e4;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all 0.5s;
+    margin-left: 250px;
+}
+.sadbut button:hover
+{
+    background-color: #fff;
+    color: #0779e4;
+}
